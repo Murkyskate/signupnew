@@ -35,9 +35,9 @@ export const LoginSignup = () => {
         </div>
         <div className="forgot-password">Forgot Password ?</div>
         <div className="submit-container">
-          <Link to='/Home'><div className={action === "Sign Up" ? "submit gray" : "submit"} onClick={handleSwitchAction}>
+          <div className={action === "Sign Up" ? "submit gray" : "submit"} onClick={handleSwitchAction}>
             {action === "Login" ? "Sign Up" : "Sign Up"}
-          </div></Link>
+          </div>
           
           <Link to='/Home'> 
           <div className={action === "Login" ? "submit gray" : "submit"} onClick={handleSwitchAction}>
