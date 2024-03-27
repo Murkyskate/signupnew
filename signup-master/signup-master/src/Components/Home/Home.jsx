@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Map from '../MapBox/mapbox';
-import './Home.css';
+import '../Home/Home.css';
 const Home = () => {
   const [showMarker,setShowMarkers] = useState(false);
   const handleShowMarkers=()=>{
